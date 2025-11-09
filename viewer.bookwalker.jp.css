@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name           Better-bookwalker
+@namespace      github.com/ClemPera/Better-bookwalker
+@version        0.0.1
+@description    Custom css for making bookwalker better
+@author         ClemPera
+==/UserStyle== */
+
+@-moz-document domain("viewer.bookwalker.jp") {
+    /* Invert the canvas/images */
+    canvas, img {
+        filter: invert(1) hue-rotate(180deg);
+    }
+    
+    .message {
+        user-select: text;
+    }
+}
